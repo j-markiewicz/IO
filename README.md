@@ -319,9 +319,8 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 Klient/pracownik po wpisaniu loginu i hasła loguje się do systemu. System wyświetla interfejs klienta/pracownika.
 
 ### 5.2. Nadanie Paczki
-
-Klient wykupuje usługe nadania paczki w dogodnym dla niego paczkomacie lub przekazuje paczkę kurierowi po wcześniejszym uzgodnieniu terminu z kurierem.
-System przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania.
+System zapisuje dane wpisane w formularzu przez klienta oraz umozliwia wykonanie płatnosci za wysyłke paczki. Nastepnie system przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania. Klient nadaje paczke w wskazanym przez niego paczkomacie lub przekazuje paczke kurierowi po wczesniejszym uzgodnieniu terminu.
+System zmienia status paczki na "nadana"
 
 ### 5.3. Odbierz Paczkę
 
@@ -343,15 +342,15 @@ Klient wypełnia formularz reklamacji. Formularz zostaje wysłany do pracownika 
 
 ### 5.7. Zmiana Statusu Paczki
 
-Kurier  skanuje kod paczki, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. 
+Kurier  skanuje kod paczki, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. System zmienia status paczki.
 
 ### 5.8. Przydziel zadania Kurierom
 
-Pracownik administracji przydziela konkretnemu kurierowi obszar pracy, auto i tryb pracy.
+Pracownik administracji przydziela poprzez aplikacje konkretnemu kurierowi obszar pracy, auto i tryb pracy. Te informacje system wyswietla konkretnemu kurierowi po jego zalogowaniu do aplikacji.
 
 ### 5.9. Rozpatrz zażalenie
 
-Pracownik administracji rozpatruje złożone wnioski. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. Pracownik rozpatruje wnioski a nastepnie postepuje zgodnie z polityka firmy Outpost.
+Pracownik administracji rozpatruje wnioski a nastepnie postepuje zgodnie z polityka firmy Outpost. Rozpatrzony wniosek oznacza statusem “rozpatrzony”.  System przekazuje ta informacje klientowi ktory wyslal ten wniosek.
 
 ## 6. Ograniczenia 
 
