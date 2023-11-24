@@ -37,6 +37,10 @@
    
    3.4.2 Odbiorca
    
+   3.4.3 Kurier
+   
+   3.4.4. Administracja
+   
    3.5 Kluczowe wymagania
    
    3.6 Rozwiązania alternatywne
