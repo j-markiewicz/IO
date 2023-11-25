@@ -279,27 +279,28 @@ Niniejszy dokument wizji opisuje działanie podsystemu o nazwie Outpost firmy ku
 | Ograniczenie sformalizowanych i długotrwałych procesów zwrotów nieodebranych przesyłek | Możliwość odbioru przesyłek w magazynie przesyłkowym po przekroczeniu czasu odbioru przez 4 dni bez dodatkowych opłat|
 | Klient nie ponosi kar w przypadku wystąpienia sytuacji losowych, których nie mógł przewidzieć | Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie, klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy |
 | Klient jest w stanie współplanować odbiór/nadanie przesyłki z innymi ważnymi dla niego aktywnościami w podobnym czasie | Możliwość doprecyzowania godziny przyjazdu kuriera z dokładnością +-1godzina |
+| Klient ma większą kontrolę nad całym przebiegiem procesu dostarczania paczki przez cały czas trwania usługi | Możliwość śledzenia dokładnego statusu paczki (miejsce w którym się aktualnie znajduje, zauktualizowany przwidywany czas dostarczenia) po wpisaniu ID paczki |  
 
 ### 4.3. Założenia i zależności
 
 Projekt nie wymaga użycia bardzo nowoczesnej technologii, od której mógłby być uzależniony. Wystarczy użycie już sprawdzonych urządzeń elektronicznych i oprogramowania.
-Projekt zakłada, że samo użycie nowatorskich rozwiązań, nieoferowanych przez konkurencję, przyniesie sukces biznesowy. Jeśli rynek nie zareaguje wystarczająco entuzjastycznie albo jeśli konkurencja szybko wprowadzi podobne rozwiązania, dokument wizji prawdopodobnie będzie musiał zostać wzbogacony o dodatkowe rozwiązania.
+Projekt stawia bardziej na wcielenie w życie nowatorskich lub wciąż mało popularnych pomysłów i zakłada, że samo użycie takich rozwiązań, nieoferowanych przez większość konkurencji, przyniesie sukces biznesowy. Jeśli rynek nie zareaguje wystarczająco entuzjastycznie albo jeśli konkurencja szybko wprowadzi podobne rozwiązania, dokument wizji prawdopodobnie będzie musiał zostać wzbogacony o dodatkowe rozwiązania.
 
 ### 4.4. Koszty
 
-- 60000zł - koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł
+- 60000zł - koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł. Nie będzie konieczności zakupu dodatkowych 	serwerów i baz danych przez firmę Outpost, ponieważ omawiany podsystem będzie korzystać z już istniejącej w tej firmie infrastruktury informatycznej
 - 10000zł - instalacja systemu przez firmę Datagility i jego synchronizacja z obecnym systemem ERP. Personalizacja i optymalizacja podsystemu
 - 2000zł/msc - pakiet serwisowy wykupiony u firmy Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie 			pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych
 - 2000zł/msc - dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny 			menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity
-- 5000zł - przeszkolenie pracowników firmy przez zarząd firmy Outpost i pracowników firmy Datagility z użytkowania nowego podsystemu
+- 5000zł - przeszkolenie pracowników firmy Outpost a także pracowników firmy Datagility, którzy będą zajmować się konserwacją systemu Outpost, przez zarząd i ekspertów firmy Datagility z użytkowania nowego podsystemu
 
 ### 4.5 Licencje i instalacja
 
 Produkt został zakupiony przez firmę Outpost, która zyskała wszelkie prawa do rozporządzania nim, w tym do wydawania licencji na jego używanie przez podmioty trzecie, jak i do całkowitej odsprzedaży produktu.
 
-Instalacja i pielęgnacja zostały zlecona firmie, która utworzyła podsystem.
+Instalacja i pielęgnacja zostały zlecona firmie, która utworzyła podsystem, firmie Datagility.
 	
-Firma zakupiła licencje na bardziej użyteczny i rozbudowany menadżer haseł a także na oprogramowanie wzmacniające ochronę sieci.
+Firma Outpost zakupiła licencje na bardziej użyteczny i rozbudowany menadżer haseł a także na oprogramowanie wzmacniające ochronę sieci.
 
 ## 5. Funkcjonalność produktu
 
