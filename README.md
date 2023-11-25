@@ -314,6 +314,7 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 - Zmiana daty odbioru paczki
 - Złożenie zażalenia
 - Kontakt z kurierem (w wypadku odbioru i doreczenia z/do innego miejsca niż paczkomat)
+- Zmiana sposobu doreczenia paczki lub zmiana adresu
 
 *Funkcjonalności zapewniane przez system Outpost dla pracowników firmy Outpost:*
 
@@ -366,6 +367,10 @@ Pracownik administracji przydziela poprzez aplikacje konkretnemu kurierowi obsza
 ### 5.9. Rozpatrz zażalenie
 
 Pracownik administracji rozpatruje wnioski a nastepnie postepuje zgodnie z polityka firmy Outpost. Rozpatrzony wniosek oznacza statusem “rozpatrzony”.  System przekazuje ta informacje klientowi ktory wyslal ten wniosek.
+
+### 5.10 Zmień sposób dostarczenia lub adres 
+
+Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z listy lub wpisuje adres.
 
 ## 6. Ograniczenia 
 
