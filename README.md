@@ -5,45 +5,45 @@
 
 1. Wstęp
    
-   1.1 Cel dokumentu
+   1.1. Cel dokumentu
    
-   1.2 Zakres
+   1.2. Zakres
    
-   1.3 Definicje, akronimy i skróty
+   1.3. Definicje, akronimy i skróty
    
-   1.4 Referencje
+   1.4. Referencje
    
-   1.5 Omówienie dokumentu
+   1.5. Omówienie dokumentu
    
 2. Umiejscowienie problemu
    
-   2.1 Korzyści biznesowe
+   2.1. Korzyści biznesowe
    
-   2.2 Zdefiniowanie problemu
+   2.2. Zdefiniowanie problemu
    
-   2.3 Umiejsowienie produktu
+   2.3. Umiejsowienie produktu
    
 3. Charakterystyka użytkowników
    
-   3.1 Demografia rynku
+   3.1. Demografia rynku
    
-   3.2 Użytkownicy
+   3.2. Użytkownicy
    
-   3.3 Środowisko użytkownika
+   3.3. Środowisko użytkownika
    
-   3.4 Profile uzytkowników
+   3.4. Profile uzytkowników
    
-   3.4.1 Nadawca
+   3.4.1. Nadawca
    
-   3.4.2 Odbiorca
+   3.4.2. Odbiorca
    
-   3.4.3 Kurier
+   3.4.3. Kurier
    
    3.4.4. Administracja
    
-   3.5 Kluczowe wymagania
+   3.5. Kluczowe wymagania
    
-   3.6 Rozwiązania alternatywne
+   3.6. Rozwiązania alternatywne
    
    3.6.1. InPost
    
@@ -53,15 +53,15 @@
    
 4. Omówienie produktu
    
-   4.1 Kontekst produktu
+   4.1. Kontekst produktu
    
-   4.2 Podsumowanie możliwości
+   4.2. Podsumowanie możliwości
    
-   4.3 Założenia i zależności
+   4.3. Założenia i zależności
    
-   4.4 Koszty
+   4.4. Koszty
    
-   4.5 Licencje i instalacja
+   4.5. Licencje i instalacja
    
 5. Funkcjonalność produktu
    
@@ -82,27 +82,29 @@
    5.8. Przydziel zadania Kurierom
    
    5.9. Rozpatrz zażalenie
+
+   5.10. Zmień sposób dostarczenia lub adres 
    
 6. Ograniczenia
 7. Normy jakościowe
 8. Priorytety realizacji
 9. Pozostałe wymagania
    
-   9.1 Standardy
+   9.1. Standardy
    
-   9.2 Wymagania systemowe
+   9.2. Wymagania systemowe
    
-   9.3 Wymagania wydajnościowe
+   9.3. Wymagania wydajnościowe
    
-   9.4 Wymagania środowiskowe
+   9.4. Wymagania środowiskowe
    
 10. Wymagana dokumentacja
     
-    10.1 Podręcznik użytkownika
+    10.1. Podręcznik użytkownika
     
-    10.2 Pomoc online
+    10.2. Pomoc online
     
-    10.3 Instalacja i konfiguracja
+    10.3. Instalacja i konfiguracja
 
 # Wizja
 
@@ -121,7 +123,7 @@ Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest o
 - Klient – zewnętrzny użytkownik serwisu
 - Pracownik – użytkownik systemu zatrudniony przez firmę kurierską
 - Klient Nadawca – Klient nadający paczkę przez usługę
-- Klient Odbiorca – Klient odbierający przesyłkę z paczkomatu
+- Klient Odbiorca – Klient odbierający przesyłkę
 - Kurier – pracownik, dostawca paczek do domu klienta lub paczkomatu
 - Kurier paczkomatowy - Kurier, który dostarcza lub odbiera paczki z/do paczkomatu
 - Kurier domowy - Kurier, który dostarcza lub odbiera paczki z/do nie-paczkomatu
@@ -143,51 +145,51 @@ Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym 
 
 ### 2.1. Korzyści biznesowe
 
-- Stworzenie linii komunikacji między użytkowanikami systemu, co spowoduje przyspieszenie obsługi klienta oraz zoptymalizowanie tras kuriera przy nadaniu lub odbiorze paczki. W związku z powyższym przeciętny kurier bedzie w stanie średnio zwiększyć ilość rozworzonych/odbieranych paczek między 2 a 3 więcej dziennie.
-- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera co skutkuje oszczędnościami na paliwie, amortyzacji pojazdów oraz skróceniem czasu dostawy – 3% szacowane obniżenie kosztów dostawy.
-- Usprawnienie oraz skrócenie procesu nadania oraz możliwość zmiany daty I miejsca dostawy znacząco poprawi doświadzenie urzytkownika podczas korzystania z aplikacji co w perspektywie już kilku miesięcy będzie pomagać w zdominowaniu rynku w demografii urzytkowników aplikacji. Zwiększenie liczby klientów zależy od intesywności kampani marketingowych I promocyjnych firmy w danym okresie ale podczas przeprowadzonych testów 90% urzytkowników po 3 nadaniu/odbiorze paczki ocenia swoje doświadczenie zauważalnie lepiej niż podczas przechodzenia tego samego procesu na innych serwisach.
+- Stworzenie linii komunikacji między użytkowanikami systemu, co spowoduje przyspieszenie obsługi klienta oraz zoptymalizowanie tras kuriera przy nadaniu lub odbiorze paczki. W związku z powyższym przeciętny kurier bedzie w stanie średnio zwiększyć ilość rozwożonych/odbieranych paczek między 2 a 3 więcej dziennie.
+- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera, co skutkuje oszczędnościami na paliwie, amortyzacji pojazdów oraz skróceniem czasu dostawy – 3% szacowane obniżenie kosztów dostawy.
+- Usprawnienie oraz skrócenie procesu nadania oraz możliwość zmiany daty i miejsca dostawy znacząco poprawi doświadzenie użytkownika podczas korzystania z aplikacji co w perspektywie już kilku miesięcy będzie pomagać w zdominowaniu rynku w demografii użytkowników aplikacji. Zwiększenie liczby klientów zależy od intesywności kampanii. marketingowych i promocyjnych firmy w danym okresie, ale podczas przeprowadzonych testów 90% użytkowników po trzecim nadaniu/odbiorze paczki ocenia swoje doświadczenie zauważalnie lepiej niż podczas przechodzenia tego samego procesu w innych serwisach.
 
 
 ### 2.2. Zdefiniowanie problemu
 
-- Problem: Zapotrzebowanie na system obsługujący nadawanie, śledzenie,odbiór przesyłek oraz obsługę paczkomatów.
+- Problem: Zapotrzebowanie na system obsługujący nadawanie, śledzenie, odbiór przesyłek oraz obsługę paczkomatów
 - Dotyczy: Firmy kurierskiej Outpost
-- Którego skutkiem jest: Niski poziom usług kurierskich - problemy ze śledzeniem przesyłek, brak elastyczności terminu oraz miejsca odbioru, 
-- Satysfakcjonujacym rozwiązaniem było by: Stworzenie oprogramowania obsługującego nadanie, odbiór paczki z przejrzystym interfejsem
+- Którego skutkiem jest: Niski poziom usług kurierskich - problemy ze śledzeniem przesyłek, brak elastyczności terminu oraz miejsca odbioru 
+- Satysfakcjonujacym rozwiązaniem byłoby: Stworzenie oprogramowania obsługującego nadanie, odbiór paczki z przejrzystym interfejsem
 
 ### 2.3. Umiejsowienie produktu
 
 - Dla: Firmy Outpost obsługującej serwisy kurierskie
 - Która: Potrzebuje oprogramowania do nadawania oraz obioru przesyłek
 - (System Outpost): Aplikacja do obsługi przesyłek
-- Który: Jest niezawodny, ma niskie koszty operowania i utrzymania, zapewnia większą elastyczność od podobnych serwisów, jest prosty do rozszerzenia o funkcje w zależności od przyszłych potrzeb firmy Outpost.
+- Który: Jest niezawodny, ma niskie koszty operowania i utrzymania, zapewnia większą elastyczność od podobnych serwisów, jest prosty do rozszerzenia o funkcje w zależności od przyszłych potrzeb firmy Outpost
 - W przeciwienstwie do: Inpost, dpd, pocztex
-- Nasz produkt: Pozwala klientom firmy Outpost na zmianę terminu oraz miejsca odbioru przesyłek z minimalnym kosztem ze strony firmy.
+- Nasz produkt: Pozwala klientom firmy Outpost na zmianę terminu oraz miejsca odbioru przesyłek z minimalnym kosztem ze strony firmy
 
 ## 3. Charakterystyka użytkowników
 
 ### 3.1. Demografia rynku
 
-Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkowników może sięgać od miliona wzwyż użytkowników, kwota przeznaczana na nadanie paczki powinna oscylować w granicach 15-50 zł, może być nawet wyższa w zależności od gabarytów. Aplikacje zapewniające obsługę paczek, mają na rynku dobrą reputację, jednak jest parę kwestii nad którymi warto pracować, aplikacje umożliwiają klientom nadawanie i odbieranie paczek bez wychodzenia z domu, przy niewielkim nakładzie czasu. Nasza aplikacja umożliwia zachowanie popularnych rozwiązań stosowanych przez dostawców usług obsługi paczek oraz kilka ulepszeń, takich jak na przykład możliwość zmiany miejsca dostawy przez odbiorcę oraz ulepszenie kontaktu z kurierami.
+Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkowników może sięgać od miliona wzwyż, kwota przeznaczana na nadanie paczki powinna oscylować w granicach 15-50 zł, może być nawet wyższa w zależności od gabarytów. Aplikacje zapewniające obsługę paczek mają na rynku dobrą reputację, jednak jest parę kwestii nad którymi warto pracować, aplikacje umożliwiają klientom nadawanie i odbieranie paczek bez wychodzenia z domu, przy niewielkim nakładzie czasu. Nasza aplikacja umożliwia zachowanie popularnych rozwiązań stosowanych przez dostawców usług obsługi paczek oraz kilka ulepszeń, takich jak na przykład możliwość zmiany miejsca dostawy przez odbiorcę oraz ulepszenie kontaktu z kurierami.
 
 ### 3.2. Użytkownicy
 
 | Nazwa | Opis | Rola |
 | --- | --- | --- |
 | Nadawcy przesyłek | Osoby lub firmy, które wysyłają przesyłki za pośrednictwem serwisu | Wprowadzają szczegóły przesyłek do systemu. Oczekują na potwierdzenie dostawy. Mają możliwość śledzenia przesyłki |
-| Odbiorcy przesyłek | Osoby lub firmy, które odbierają przesyłki dostarczone przez kurierów. | Odbierają przesyłki. Potwierdzają dostawę. Mogą zgłaszać problemy z dostawą. Mogą w określonym zakresie zmieniać termin oraz miejsce odbioru Mają możliwość śledzenia przesyłki |
-| Kurierzy | Pracownicy firmy Outpost | Przewożą paczki między magazynem a paczkomatem lub adresem klienta. Korzystają z systemu przez aplikacje skanera paczek. |
-| Administracja | Pracownicy firmy Outpost | Przydzielają pojazdy i grafik kurierom. Rozpatrują skargi klientów. Udzielają pomocy klientom. |
+| Odbiorcy przesyłek | Osoby lub firmy, które odbierają przesyłki dostarczone przez kurierów | Odbierają przesyłki. Potwierdzają dostawę. Mogą zgłaszać problemy z dostawą. Mogą w określonym zakresie zmieniać termin oraz miejsce odbioru. Mają możliwość śledzenia przesyłki |
+| Kurierzy | Pracownicy firmy Outpost | Przewożą paczki między magazynem a paczkomatem lub adresem klienta. Korzystają z systemu przez aplikacje skanera paczek |
+| Administracja | Pracownicy firmy Outpost | Przydzielają pojazdy i grafik kurierom. Rozpatrują skargi klientów. Udzielają pomocy klientom |
 
 ### 3.3. Środowisko użytkownika
 
 Środowisko użytkownika:
 
-- Cykl między 1 a 4 dni roboczych do momentu, kiedy paczka jest gotowa do odbioru zależy od trasy przesyłki oraz ilości realizowanych przesyłek na tej trasie.
+- Cykl między 1 a 4 dni roboczych do momentu, kiedy paczka jest gotowa do odbioru zależy od trasy przesyłki oraz ilości realizowanych przesyłek na tej trasie
 - Nadanie paczki przez klienta: w domu/biurze na komputerze lub gdziekolwiek używając aplikacji mobilnej
 - Przy odbiorze paczki z paczkomatu przez klienta: przy paczkomacie korzystając z aplikacji mobilnej lub wyświetlając powiadomienie e-mailowe/smsowe
 - Podczas pracy kuriera: w samochodzie dostawczym na skanerze przesyłek
-- Czas nadania przesyłki nie powinien przekraczać dla przeciętnego użytkownika 3 minut podczas użycia aplikacji oraz 5 przy użyciu przeglądarki.
+- Czas nadania przesyłki nie powinien przekraczać dla przeciętnego użytkownika 3 minut podczas użycia aplikacji oraz 5 minut przy użyciu przeglądarki
 - Działanie aplikacji w ograniczonym zakresie w trybie offline
 - Aplikacje do obsługi zleceń kurierskich firm przewozowych, systemy płatności internetowej w obu przypadkach aplikacja zapewnia odpowiednie API do bezproblemowego współdziałania
 
@@ -212,7 +214,7 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Reprezentant | Odbiorca |
 | Opis | Aplikacja powinna być prosta w obsłudze, osoba może być w dowolnym wieku, nie musi obsługować na co dzień aplikacji, mogą to być osoby starsze, nie musi posiadać większej wiedzy na temat procesu dostarczania paczek |
 | Typ | Przypadkowy użytkownik |
-| Rola | Śledzenie przesyłki, otrzymywanie informacji na temat statusu przesyłki, odbiór z paczkomatu/ od kuriera |
+| Rola | Śledzenie przesyłki, otrzymywanie informacji na temat statusu przesyłki, odbiór z paczkomatu/od kuriera |
 | Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z kurierem, możliwość określenia dokładnego czasu przybycia przesyłki do punktu docelowego |
 | Zaangażowanie | Śledzenie przesyłki, kontakt z kurierem, zaangażowanie minimalne |
 | Uwagi | |
@@ -224,8 +226,8 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Reprezentant | Kurier Outpost |
 | Opis | Zatrudniony przez firmę Outpost, przewozi paczki |
 | Typ | Pracownik firmy Outpost |
-| Rola | Przewóz paczek między magazynem a paczkomatem lub adresem klienta. Kontakt z klientem w przypadku dowozu do adresu klienta w celu ustalenia dokładnego czasa dostawy. |
-| Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość sprawnej zmiany statusu paczek. |
+| Rola | Przewóz paczek między magazynem a paczkomatem lub adresem klienta. Kontakt z klientem w przypadku dowozu do adresu klienta w celu ustalenia dokładnego czasu dostawy |
+| Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość sprawnej zmiany statusu paczek |
 | Zaangażowanie | Przewóz przesyłek, kontakt z klientem, zaangażowanie wysokie |
 | Uwagi | |
 
@@ -237,7 +239,7 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Opis | Zatrudniony przez firmę Outpost, pracuje w biurze |
 | Typ | Pracownik firmy Outpost |
 | Rola | Przydział pojazdów i grafików kurierom, obsługa klientów |
-| Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość skutecznego zarządzania kurierami. |
+| Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość skutecznego zarządzania kurierami |
 | Zaangażowanie | Zarządzanie kurierami, obsługa klienta, zaangażowanie wysokie |
 | Uwagi | |
 
@@ -246,7 +248,7 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Potrzeba | Priorytet | Przyczyna | Aktualne rozwiązanie | Proponowane rozwiązanie |
 | --- | --- | --- | --- | --- |
 | Obsługa paczkomatów | wysoki | Chęć rozszerzenia oferty firmy Outpost | Brak | System Outpost, który oprócz tradycyjnych usług kurierskich również obsługuje paczkomaty |
-| Uproszczenie i przyspieszenie procesu nadania | średni | Istniejący system firmy Outpost jest skomplikowany i nie jest w stanie być obsługiwany przez wszystkich klientów | Istniejący system obsługiwany przez administracje, częściowo działający na papierze | Łatwa w użyciu strona internetowa i aplikacja mobilna |
+| Uproszczenie i przyspieszenie procesu nadania | średni | Istniejący system firmy Outpost jest skomplikowany i nie jest w stanie być obsługiwany przez wszystkich klientów | Istniejący system obsługiwany przez administrację, częściowo działający na papierze | Łatwa w użyciu strona internetowa i aplikacja mobilna |
 | Możliwość zmiany terminu oraz miejsca odbioru przesyłki | wysoki | Zmiany planów odbioru w czasie realizacji dostawy | Brak | Umożliwienie bezpośredniej komunikacji klienta z kurierem|
 | Śledzenie przesyłki i planowanej daty dostarczenia | wysoki |Możliwość przewidzenia dostawy paczki | Powiadomienie o dostarczeniu paczki|Stworzenie funkcjonalności, która podaje status paczki po wpisaniu jej ID |
 
@@ -254,16 +256,16 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 
 #### 3.6.1. InPost
 
-Aktualnie najepsze rozwiązanie. Używa aplikacji z możliwością nadawania oraz śledzenia przesyłek. Przetestowane oraz zaufane rozwiązanie do którego klienci są przyzwyczjeni. Brak możliwości dostarczenia pod wsakazny adres. Brak możliwości zmiany daty albo paczkomatu do którego zostanie dostarczona przesyłka.
+Aktualnie najepsze rozwiązanie. Używa aplikacji z możliwością nadawania oraz śledzenia przesyłek. Przetestowane oraz zaufane rozwiązanie do którego klienci są przyzwyczjeni. Brak możliwości dostarczenia pod wsakazny adres. Brak możliwości zmiany daty albo paczkomatu, do którego zostanie dostarczona przesyłka.
 
 #### 3.6.2. DPD
 
-Możliwość śledzenia nadania przesyłki z poziomu przeglądraki albo aplikacji. Możliwość dostarczenia pod wskazany adres albo do paczkomatuj. Brak możliwości zmiany daty albo adresu dostarczenia paczki. Komunikacja z kurierem tylko przez numer tleefonu (nie zawsze jest zapewniona).
+Możliwość śledzenia nadania przesyłki z poziomu przeglądarki albo aplikacji. Możliwość dostarczenia pod wskazany adres albo do paczkomatu. Brak możliwości zmiany daty albo adresu dostarczenia paczki. Komunikacja z kurierem tylko przez numer telefonu (nie zawsze jest zapewniona).
 
 #### 3.6.3. PoczteX
 
 Brak aplikacji w użyciu. Konieczność nadania w punkcie pocztowym albo z poziomu strony internetowej. 
-Obsługa kurierska oraz również wysyłka do paczkomatów. Słaba komunikacja z kurierem. Brak możliwości zmiany daty albo paczkomatu do którego zostanie dostarczona przesyłka. 
+Obsługa kurierska oraz wysyłka do paczkomatów. Słaba komunikacja z kurierem. Brak możliwości zmiany daty albo paczkomatu, do którego zostanie dostarczona przesyłka. 
 
 ## 4. Omówienie produktu
 
@@ -277,9 +279,9 @@ Niniejszy dokument wizji opisuje działanie podsystemu o nazwie Outpost firmy ku
 | --- | --- |
 | Klient nie musi czuć się zmuszony do przebywania w zadeklarowanym z dużym wyprzedzeniem miejscu na czas odbioru przesyłki | Możliwość jednorazowej bezpłatnej zmiany adresu doręczenia przesyłki i/lub formy doręczenia (kurier/paczkomat) najpóźniej dnia poprzedzającego planowany termin doręczenia |
 | Ograniczenie sformalizowanych i długotrwałych procesów zwrotów nieodebranych przesyłek | Możliwość odbioru przesyłek w magazynie przesyłkowym po przekroczeniu czasu odbioru przez 4 dni bez dodatkowych opłat|
-| Klient nie ponosi kar w przypadku wystąpienia sytuacji losowych, których nie mógł przewidzieć | Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie, klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy |
+| Klient nie ponosi kar w przypadku wystąpienia sytuacji losowych, których nie mógł przewidzieć | Jeśli paczka klienta ma status (w paczkomacie -> do magazynu) lub (w magazynie), klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy |
 | Klient jest w stanie współplanować odbiór/nadanie przesyłki z innymi ważnymi dla niego aktywnościami w podobnym czasie | Możliwość doprecyzowania godziny przyjazdu kuriera z dokładnością +-1godzina |
-| Klient ma większą kontrolę nad całym przebiegiem procesu dostarczania paczki przez cały czas trwania usługi | Możliwość śledzenia dokładnego statusu paczki (miejsce w którym się aktualnie znajduje, zauktualizowany przwidywany czas dostarczenia) po wpisaniu ID paczki |  
+| Klient ma większą kontrolę nad całym przebiegiem procesu dostarczania paczki przez cały czas trwania usługi | Możliwość śledzenia dokładnego statusu paczki (miejsce w którym się aktualnie znajduje, zaktualizowany przewidywany czas dostarczenia) po wpisaniu ID paczki |  
 
 ### 4.3. Założenia i zależności
 
@@ -288,11 +290,11 @@ Projekt stawia bardziej na wcielenie w życie nowatorskich lub wciąż mało pop
 
 ### 4.4. Koszty
 
-- 60000zł - koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł. Nie będzie konieczności zakupu dodatkowych 	serwerów i baz danych przez firmę Outpost, ponieważ omawiany podsystem będzie korzystać z już istniejącej w tej firmie infrastruktury informatycznej
-- 10000zł - instalacja systemu przez firmę Datagility i jego synchronizacja z obecnym systemem ERP. Personalizacja i optymalizacja podsystemu
-- 2000zł/msc - pakiet serwisowy wykupiony u firmy Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie 			pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych
-- 2000zł/msc - dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny 			menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity
-- 5000zł - przeszkolenie pracowników firmy Outpost a także pracowników firmy Datagility, którzy będą zajmować się konserwacją systemu Outpost, przez zarząd i ekspertów firmy Datagility z użytkowania nowego podsystemu
+- 60000zł - koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł. Nie będzie konieczności zakupu dodatkowych 	serwerów i baz danych przez firmę Outpost, ponieważ omawiany podsystem będzie korzystać z już istniejącej w tej firmie infrastruktury informatycznej.
+- 10000zł - instalacja systemu przez firmę Datagility i jego synchronizacja z obecnym systemem ERP. Personalizacja i optymalizacja podsystemu.
+- 2000zł/msc - pakiet serwisowy wykupiony u firmy Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie 			pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych.
+- 2000zł/msc - dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny 			menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity.
+- 5000zł - przeszkolenie pracowników firmy Outpost a także pracowników firmy Datagility, którzy będą zajmować się konserwacją systemu Outpost, przez zarząd i ekspertów firmy Datagility z użytkowania nowego podsystemu.
 
 ### 4.5 Licencje i instalacja
 
@@ -304,13 +306,13 @@ Firma Outpost zakupiła licencje na bardziej użyteczny i rozbudowany menadżer 
 
 ## 5. Funkcjonalność produktu
 
-System Outpost daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przeslanie paczek lub paczki).
+System Outpost daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przesłanie paczek lub paczki).
 Ułatwia komunikacje między klientem a pracownikami firmy.
 
 *System Outpost posiada takie funkcjonalności dla klientów firmy Outpost:*
 - Nadanie Paczki – wykupienie usługi na przesłanie paczki 
 - Odbiór Paczki – odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
-- Śledzenie Paczki	- możliwość zobaczenia statusu paczki.
+- Śledzenie Paczki - możliwość zobaczenia statusu paczki
 - Zmiana daty odbioru paczki
 - Złożenie zażalenia
 - Kontakt z kurierem (w wypadku odbioru i doreczenia z/do innego miejsca niż paczkomat)
@@ -334,23 +336,22 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 Klient/pracownik po wpisaniu loginu i hasła loguje się do systemu. System wyświetla interfejs klienta/pracownika.
 
 ### 5.2. Nadanie Paczki
-System zapisuje dane wpisane w formularzu przez klienta oraz umozliwia wykonanie płatnosci za wysyłke paczki. Nastepnie system przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania. System generuje kod nadania paczki.
-Klient nadaje paczke w paczkomacie wpisujac kod wygenerowany przez system.
-Lub Klient przekazuje paczke kurierowi po wczesniejszym uzgodnieniu terminu przez aplikacje. System zmienia status paczki na "nadana".
+
+System zapisuje dane wpisane w formularzu przez klienta oraz umożliwia wykonanie płatności za wysyłkę paczki. Następnie system przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania. System generuje kod nadania paczki.
+Klient nadaje paczkę w paczkomacie wpisując kod wygenerowany przez system lub Klient przekazuje paczkę kurierowi po wcześniejszym uzgodnieniu terminu przez aplikację. System zmienia status paczki na "nadana".
 
 ### 5.3. Odbierz Paczkę
 
-Klient odbiera paczkę (w podanym wcześniej przez niego paczkomacie) poprzez zeskanowanie kodu z aplikacji lub wpisanie kodu wyslanego wczesniej do klienta przez system.
-Lub klient odbiera paczkę od kuriera po wcześniejszym uzgodnieniu terminu z kurierem przez aplikacje. 
+Klient odbiera paczkę (w podanym wcześniej przez niego paczkomacie) poprzez zeskanowanie kodu z aplikacji lub wpisanie kodu wysłanego wcześniej do klienta przez system lub Klient odbiera paczkę od kuriera po wcześniejszym uzgodnieniu terminu z kurierem przez aplikację. 
 System usuwa nr ID paczki.
 
 ### 5.4. Śledź Paczkę
 
-Klient posługując się numerem ID paczki sprawdza jej status. System wyswietla status paczki o podanym ID.
+Klient posługując się numerem ID paczki sprawdza jej status. System wyświetla status paczki o podanym ID.
 
 ### 5.5. Zmień datę odbioru
 
-Jeśli paczka klienta ma status nadana lub w magazynie, klient ma możliwość skontaktowania się z kurierem przez aplikacje i wybrania innego terminu odbioru paczki z listy. System zmienia przewidywany termin odbioru paczki i wysyla ta informacje do kuriera.
+Jeśli paczka klienta ma status "nadana" lub "w magazynie", klient ma możliwość skontaktowania się z kurierem przez aplikację i wybrania innego terminu odbioru paczki z listy. System zmienia przewidywany termin odbioru paczki i wysyła tę informację do kuriera.
 
 ### 5.6. Złóż zażalenie
 
@@ -358,36 +359,36 @@ Klient wypełnia formularz reklamacji. Formularz zostaje wysłany do pracownika 
 
 ### 5.7. Zmiana Statusu Paczki
 
-Kurier  skanuje kod paczki, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. System zmienia status paczki.
+Kurier skanuje kod paczki, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. System zmienia status paczki.
 
 ### 5.8. Przydziel zadania Kurierom
 
-Pracownik administracji przydziela poprzez aplikacje konkretnemu kurierowi obszar pracy, auto i tryb pracy. Te informacje system wyswietla konkretnemu kurierowi po jego zalogowaniu do aplikacji.
+Pracownik administracji przydziela poprzez aplikację konkretnemu kurierowi obszar pracy, auto i tryb pracy. Te informacje system wyswietla konkretnemu kurierowi po jego zalogowaniu do aplikacji.
 
 ### 5.9. Rozpatrz zażalenie
 
-Pracownik administracji rozpatruje wnioski a nastepnie postepuje zgodnie z polityka firmy Outpost. Rozpatrzony wniosek oznacza statusem “rozpatrzony”.  System przekazuje ta informacje klientowi ktory wyslal ten wniosek.
+Pracownik administracji rozpatruje wnioski a nastepnie postepuje zgodnie z polityką firmy Outpost. Rozpatrzony wniosek oznacza statusem “rozpatrzony”. System przekazuje tę informację klientowi, który wysłał ten wniosek.
 
-### 5.10 Zmień sposób dostarczenia lub adres 
+### 5.10. Zmień sposób dostarczenia lub adres 
 
-Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z listy lub wpisuje adres. System aktualizuje adres i sposob dostawy.
+Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z listy lub wpisuje adres. System aktualizuje adres i sposób dostawy.
 
 ## 6. Ograniczenia 
 
 1. Logowanie
-	- Hasło musi byc ciagiem znakow o dlugosci przynajmniej 8
-	- Login musi byc unikalnym ciagiem znaków
-1. Formularz (Dla osob prywatnych)
-	- Imie I Nazwisko nadawcy (ciag znakow)
-	- Dane kontaktowe nadawcy (mail lub telefon) (ciag znakow lub 9 cyfr)
-	- Adres odbiorcy (miasto, ulica, nr domu, nr mieszkania(opcjonalne),kod pocztowy)
+	- Hasło musi być ciągiem znaków o długości przynajmniej 8
+	- Login musi być unikalnym ciągiem znaków
+2. Formularz (Dla osób prywatnych)
+	- Imię i Nazwisko nadawcy (ciąg znaków)
+	- Dane kontaktowe nadawcy (mail lub telefon) (ciag znaków lub 9 cyfr)
+	- Adres odbiorcy (miasto, ulica, nr domu, nr mieszkania (opcjonalne), kod pocztowy)
 	- dane kontaktowe odbiorcy (mail lub telefon)
-1. API Dla firm
-	- Sposob nadania -lista skladajaca sie z dwoch opcji(kurier,paczkomat)
-	- Sposob odebrania -lista skladajaca sie z dwoch opcji(kurier,paczkomat)
-	- Wystawienie faktury(opcjonalne) -pole do zaznaczenia
-1. Płatność
-	- Płatnosc organizowana przez system platnosci elektronicznych
+3. API dla firm
+	- Sposób nadania - lista składająca się z dwóch opcji (kurier, paczkomat)
+	- Sposób odebrania - lista składająca się z dwóch opcji (kurier, paczkomat)
+	- Wystawienie faktury (opcjonalne) - pole do zaznaczenia
+4. Płatność
+	- Płatność organizowana przez system płatności elektronicznych
 
 ## 7. Normy jakościowe
 
@@ -415,7 +416,7 @@ Odporność na błędy: Żaden użytkownik nie powinien móc zrobić niczego, co
 ### 9.1 Standardy
 
 - HTTPS (HTTP/1.1, HTTP/2, TLS 1.2, TLS 1.3) - strona internetowa i aplikacja mobilna
-- JSON, OpenAPI - backend strony i aplikacji, API dla biznesów
+- JSON, OpenAPI - backend strony i aplikacji, API dla biznesu
 - WCAG 2 - strona internetowa i aplikacja mobilna
 - ISO 27001, ISO 9001
 - ISO 668, ISO 19160, ISO 6346
