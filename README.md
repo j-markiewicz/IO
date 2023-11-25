@@ -332,14 +332,15 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 Klient/pracownik po wpisaniu loginu i hasła loguje się do systemu. System wyświetla interfejs klienta/pracownika.
 
 ### 5.2. Nadanie Paczki
-System zapisuje dane wpisane w formularzu przez klienta oraz umozliwia wykonanie płatnosci za wysyłke paczki. Nastepnie system przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania. Klient nadaje paczke w wskazanym przez niego paczkomacie lub przekazuje paczke kurierowi po wczesniejszym uzgodnieniu terminu.
-System zmienia status paczki na "nadana"
+System zapisuje dane wpisane w formularzu przez klienta oraz umozliwia wykonanie płatnosci za wysyłke paczki. Nastepnie system przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania. System generuje kod nadania paczki.
+Klient nadaje paczke w paczkomacie wpisujac kod wygenerowany przez system.
+Lub Klient przekazuje paczke kurierowi po wczesniejszym uzgodnieniu terminu przez aplikacje. System zmienia status paczki na "nadana".
 
 ### 5.3. Odbierz Paczkę
 
-Klient odbiera paczkę w podanym wcześniej przez niego paczkomacie.
-Lub klient odbiera paczkę od kuriera po wcześniejszym uzgodnieniu terminu z kurierem.
-System usuwa nr ID paczki. 
+Klient odbiera paczkę (w podanym wcześniej przez niego paczkomacie) poprzez zeskanowanie kodu z aplikacji lub wpisanie kodu wyslanego wczesniej do klienta przez system.
+Lub klient odbiera paczkę od kuriera po wcześniejszym uzgodnieniu terminu z kurierem przez aplikacje. 
+System usuwa nr ID paczki.
 
 ### 5.4. Śledź Paczkę
 
@@ -347,7 +348,7 @@ Klient posługując się numerem ID paczki sprawdza jej status. System wyswietla
 
 ### 5.5. Zmień datę odbioru
 
-Jeśli paczka klienta ma status w paczkomacie -> do magazynu lub w magazynie, klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy. System zmienia przewidywany termin odbioru paczki i wysyla ta informacje do kuriera.
+Jeśli paczka klienta ma status nadana lub w magazynie, klient ma możliwość skontaktowania się z kurierem przez aplikacje i wybrania innego terminu odbioru paczki z listy. System zmienia przewidywany termin odbioru paczki i wysyla ta informacje do kuriera.
 
 ### 5.6. Złóż zażalenie
 
