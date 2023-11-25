@@ -370,7 +370,7 @@ Pracownik administracji rozpatruje wnioski a nastepnie postepuje zgodnie z polit
 
 ### 5.10 Zmień sposób dostarczenia lub adres 
 
-Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z listy lub wpisuje adres.
+Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z listy lub wpisuje adres. System aktualizuje adres i sposob dostawy.
 
 ## 6. Ograniczenia 
 
