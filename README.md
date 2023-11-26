@@ -298,7 +298,7 @@ Projekt stawia bardziej na wcielenie w życie nowatorskich lub wciąż mało pop
 
 Produkt został zakupiony przez firmę Outpost, która zyskała wszelkie prawa do rozporządzania nim, w tym do wydawania licencji na jego używanie przez podmioty trzecie, jak i do całkowitej odsprzedaży produktu.
 
-Instalacja i pielęgnacja zostały zlecona firmie, która utworzyła podsystem, firmie Datagility.
+Instalacja i pielęgnacja zostały zlecone firmie, która utworzyła podsystem, firmie Datagility.
 
 Firma Outpost zakupiła licencje na bardziej użyteczny i rozbudowany menadżer haseł a także na oprogramowanie wzmacniające ochronę sieci.
 
