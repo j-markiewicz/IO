@@ -3,110 +3,58 @@
 ## Spis treści
 
 1. Wstęp
-   
-   1.1. Cel dokumentu
-   
-   1.2. Zakres
-   
-   1.3. Definicje, akronimy i skróty
-   
-   1.4. Referencje
-   
-   1.5. Omówienie dokumentu
-   
-2. Umiejscowienie problemu
-   
-   2.1. Korzyści biznesowe
-   
-   2.2. Zdefiniowanie problemu
-   
-   2.3. Umiejsowienie produktu
-   
-3. Charakterystyka użytkowników
-   
-   3.1. Demografia rynku
-   
-   3.2. Użytkownicy
-   
-   3.3. Środowisko użytkownika
-   
-   3.4. Profile uzytkowników
-   
-   3.4.1. Nadawca
-   
-   3.4.2. Odbiorca
-   
-   3.4.3. Kurier
-   
-   3.4.4. Administracja
-   
-   3.5. Kluczowe wymagania
-   
-   3.6. Rozwiązania alternatywne
-   
-   3.6.1. InPost
-   
-   3.6.2. DPD
-   
-   3.6.3. PoczteX
-   
-4. Omówienie produktu
-   
-   4.1. Kontekst produktu
-   
-   4.2. Podsumowanie możliwości
-   
-   4.3. Założenia i zależności
-   
-   4.4. Koszty
-   
-   4.5. Licencje i instalacja
-   
-5. Funkcjonalność produktu
-   
-   5.1. Zaloguj się do systemu
-   
-   5.2. Nadaj Paczkę
-   
-   5.3. Odbierz Paczkę
-   
-   5.4. Śledź Paczkę
-   
-   5.5. Zmień datę odbioru
-   
-   5.6. Złóż zażalenie
-   
-   5.7. Zmień Status Paczki
-   
-   5.8. Przydziel zadania Kurierom
-   
-   5.9. Rozpatrz zażalenie
-
-   5.10. Zmień sposób dostarczenia lub adres 
-   
-6. Ograniczenia
-
-7. Normy jakościowe
-
-8. Priorytety realizacji
-
-9. Pozostałe wymagania
-   
-   9.1. Standardy
-   
-   9.2. Wymagania systemowe
-   
-   9.3. Wymagania wydajnościowe
-   
-   9.4. Wymagania środowiskowe
-   
-10. Wymagana dokumentacja
-    
-    10.1. Podręcznik użytkownika
-    
-    10.2. Pomoc online
-    
-    10.3. Instalacja i konfiguracja
+   - 1.1. Cel dokumentu
+   - 1.2. Zakres
+   - 1.3. Definicje, akronimy i skróty
+   - 1.4. Referencje
+   - 1.5. Omówienie dokumentu
+1. Umiejscowienie problemu
+   - 2.1. Korzyści biznesowe
+   - 2.2. Zdefiniowanie problemu
+   - 2.3. Umiejsowienie produktu
+1. Charakterystyka użytkowników
+   - 3.1. Demografia rynku
+   - 3.2. Użytkownicy
+   - 3.3. Środowisko użytkownika
+   - 3.4. Profile uzytkowników
+      - 3.4.1. Nadawca
+      - 3.4.2. Odbiorca
+      - 3.4.3. Kurier
+      - 3.4.4. Administracja
+   - 3.5. Kluczowe wymagania
+   - 3.6. Rozwiązania alternatywne
+      - 3.6.1. InPost
+      - 3.6.2. DPD
+      - 3.6.3. PoczteX
+1. Omówienie produktu
+   - 4.1. Kontekst produktu
+   - 4.2. Podsumowanie możliwości
+   - 4.3. Założenia i zależności
+   - 4.4. Koszty
+   - 4.5. Licencje i instalacja
+1. Funkcjonalność produktu
+   - 5.1. Zaloguj się do systemu
+   - 5.2. Nadaj Paczkę
+   - 5.3. Odbierz Paczkę
+   - 5.4. Śledź Paczkę
+   - 5.5. Zmień datę odbioru
+   - 5.6. Złóż zażalenie
+   - 5.7. Zmień Status Paczki
+   - 5.8. Przydziel zadania Kurierom
+   - 5.9. Rozpatrz zażalenie
+   - 5.10. Zmień sposób dostarczenia lub adres
+1. Ograniczenia
+1. Normy jakościowe
+1. Priorytety realizacji
+1. Pozostałe wymagania
+   - 9.1. Standardy
+   - 9.2. Wymagania systemowe
+   - 9.3. Wymagania wydajnościowe
+   - 9.4. Wymagania środowiskowe
+1. Wymagana dokumentacja
+   - 10.1. Podręcznik użytkownika
+   - 10.2. Pomoc online
+   - 10.3. Instalacja i konfiguracja
 
 # Wizja
 
@@ -119,7 +67,7 @@ Celem dokumentu wizji jest zebranie, analiza i zdefiniowanie cech a także zasad
 ### 1.2. Zakres
 
 Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest on częścią większego systemu, który zajmuje się logistyką, kwestiami kadrowymi czy zarządza dostępem do baz danych pracowników i przesyłek a także zajmuje się ich ochroną. Zakresem zagadnień omawianego podsystemu jest cały proces obsługi fizycznej przesyłki, od momentu przyjęcia zlecenia na jej dostarczenie, przez proces jej transportu, po rozliczenie się z klientem z wykonania usługi. Zadaniem niniejszego podsystemu jest usprawnienie funkcjonowania firmy kurierskiej w zakresie obsługi przesyłek a także dodanie nowych funkcjonalności do świadczonych usług np. obsługa paczkomatów.
-   
+
 ### 1.3. Definicje, akronimy i skróty
 
 - Klient - zewnętrzny użytkownik serwisu
@@ -138,7 +86,6 @@ Płatności internetowe w systemie Outpost są realizowane zgodnie z rekomendacj
 
 Europejskie Forum ds. Bezpieczeństwa Płatności Detalicznych. (2013) Rekomendacje dotyczące bezpieczeństwa płatności internetowych (Numer katalogowy UE QB-30-13-188-EN-N). https://www.knf.gov.pl/knf/pl/komponenty/img/Rekomendacje_bezpieczenstwo_platnosci_internetowych_37934.pdf
 
-
 ### 1.5. Omówienie dokumentu
 
 Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym będzie funkcjonować opisywany system. Omówione zostanie tło biznesowe a także specyfika rynku i użytkowników. W dalszej kolejności system zostanie szczegółowo opisany - idea, koszty, funkcjonalności. Ostatecznie poruszone zostaną tematy prawne, kwestie norm jakościowych a także wymogów systemowych, środowiskowych czy dokumentacyjnych.
@@ -151,7 +98,6 @@ Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym 
 - Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera, co skutkuje oszczędnościami na paliwie, amortyzacji pojazdów oraz skróceniem czasu dostawy - 3% szacowane obniżenie kosztów dostawy.
 - Usprawnienie oraz skrócenie procesu nadania oraz możliwość zmiany daty i miejsca dostawy znacząco poprawi doświadzenie użytkownika podczas korzystania z aplikacji co w perspektywie już kilku miesięcy będzie pomagać w zdominowaniu rynku w demografii użytkowników aplikacji. Zwiększenie liczby klientów zależy od intesywności kampanii. marketingowych i promocyjnych firmy w danym okresie, ale podczas przeprowadzonych testów 90% użytkowników po trzecim nadaniu/odbiorze paczki ocenia swoje doświadczenie zauważalnie lepiej niż podczas przechodzenia tego samego procesu w innych serwisach.
 
-
 ### 2.2. Zdefiniowanie problemu
 
 - Problem: Zapotrzebowanie na system obsługujący nadawanie, śledzenie, odbiór przesyłek oraz obsługę paczkomatów
@@ -163,7 +109,7 @@ Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym 
 
 - Dla: Firmy Outpost obsługującej serwisy kurierskie
 - Która: Potrzebuje oprogramowania do nadawania oraz obioru przesyłek
-- (System Outpost): Aplikacja do obsługi przesyłek
+- System Outpost: Aplikacja do obsługi przesyłek
 - Który: Jest niezawodny, ma niskie koszty operowania i utrzymania, zapewnia większą elastyczność od podobnych serwisów, jest prosty do rozszerzenia o funkcje w zależności od przyszłych potrzeb firmy Outpost
 - W przeciwienstwie do: Inpost, dpd, pocztex
 - Nasz produkt: Pozwala klientom firmy Outpost na zmianę terminu oraz miejsca odbioru przesyłek z minimalnym kosztem ze strony firmy
@@ -279,7 +225,7 @@ Niniejszy dokument wizji opisuje działanie podsystemu o nazwie Outpost firmy ku
 | Ograniczenie sformalizowanych i długotrwałych procesów zwrotów nieodebranych przesyłek | Możliwość odbioru przesyłek w magazynie przesyłkowym po przekroczeniu czasu odbioru przez 4 dni bez dodatkowych opłat|
 | Klient nie ponosi kar w przypadku wystąpienia sytuacji losowych, których nie mógł przewidzieć | Jeśli paczka klienta ma status (w paczkomacie -> do magazynu) lub (w magazynie), klient ma możliwość skontaktowania się z kurierem i wybrania innego terminu odbioru paczki z listy |
 | Klient jest w stanie współplanować odbiór/nadanie przesyłki z innymi ważnymi dla niego aktywnościami w podobnym czasie | Możliwość doprecyzowania godziny przyjazdu kuriera z dokładnością +-1godzina |
-| Klient ma większą kontrolę nad całym przebiegiem procesu dostarczania paczki przez cały czas trwania usługi | Możliwość śledzenia dokładnego statusu paczki (miejsce w którym się aktualnie znajduje, zaktualizowany przewidywany czas dostarczenia) po wpisaniu ID paczki |  
+| Klient ma większą kontrolę nad całym przebiegiem procesu dostarczania paczki przez cały czas trwania usługi | Możliwość śledzenia dokładnego statusu paczki (miejsce w którym się aktualnie znajduje, zaktualizowany przewidywany czas dostarczenia) po wpisaniu ID paczki |
 
 ### 4.3. Założenia i zależności
 
@@ -374,19 +320,19 @@ Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z list
 ## 6. Ograniczenia 
 
 1. Logowanie
-    - Hasło musi być ciągiem znaków o długości przynajmniej 8
-    - Login musi być unikalnym ciągiem znaków
+   - Hasło musi być ciągiem znaków o długości przynajmniej 8
+   - Login musi być unikalnym ciągiem znaków
 2. Formularz (Dla osób prywatnych)
-    - Imię i Nazwisko nadawcy (ciąg znaków)
-    - Dane kontaktowe nadawcy (mail lub telefon) (ciag znaków lub 9 cyfr)
-    - Adres odbiorcy (miasto, ulica, nr domu, nr mieszkania (opcjonalne), kod pocztowy)
-    - Dane kontaktowe odbiorcy (mail lub telefon)
+   - Imię i Nazwisko nadawcy (ciąg znaków)
+   - Dane kontaktowe nadawcy (mail lub telefon) (ciag znaków lub 9 cyfr)
+   - Adres odbiorcy (miasto, ulica, nr domu, nr mieszkania (opcjonalne), kod pocztowy)
+   - Dane kontaktowe odbiorcy (mail lub telefon)
 3. API dla firm
-    - Sposób nadania - lista składająca się z dwóch opcji (kurier, paczkomat)
-    - Sposób odebrania - lista składająca się z dwóch opcji (kurier, paczkomat)
-    - Wystawienie faktury (opcjonalne) - pole do zaznaczenia
+   - Sposób nadania - lista składająca się z dwóch opcji (kurier, paczkomat)
+   - Sposób odebrania - lista składająca się z dwóch opcji (kurier, paczkomat)
+   - Wystawienie faktury (opcjonalne) - pole do zaznaczenia
 4. Płatność
-    - Płatność organizowana przez system płatności elektronicznych
+   - Płatność organizowana przez system płatności elektronicznych
 
 ## 7. Normy jakościowe
 
@@ -397,19 +343,19 @@ Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z list
 ## 8. Priorytety realizacji
 
 1. Polepszenie istniejących procesów
-    - Interfejs z istniejącym systemem logistycznym
-    - Obsługa skanerów paczek dla kurierów
-    - System dla klienta usług kurierskich (bez paczkomatów):
-        - Tracking paczek
-        - Zakup usług kurierskich
-        - Uzgadnianie dostarczenia paczki
-    - Pozostała funkcjonalność (drobne części funkcjonalności)
+   - Interfejs z istniejącym systemem logistycznym
+   - Obsługa skanerów paczek dla kurierów
+   - System dla klienta usług kurierskich (bez paczkomatów):
+      - Tracking paczek
+      - Zakup usług kurierskich
+      - Uzgadnianie dostarczenia paczki
+   - Pozostała funkcjonalność (drobne części funkcjonalności)
 2. Nowy system paczkomatowy
-    - Obsługa paczkomatów (z punktu widzenia kurierów i logistyki)
-    - Odbiory z paczkomatów (dla klientów)
-    - Nadawanie przesyłek z paczkomatów
-    - Zwroty z paczkomatów
-    - Pozostała funkcjonalność (drobne części funkcjonalności)
+   - Obsługa paczkomatów (z punktu widzenia kurierów i logistyki)
+   - Odbiory z paczkomatów (dla klientów)
+   - Nadawanie przesyłek z paczkomatów
+   - Zwroty z paczkomatów
+   - Pozostała funkcjonalność (drobne części funkcjonalności)
 
 ## 9. Pozostałe wymagania
 
@@ -429,38 +375,38 @@ Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z list
 ### 9.2. Wymagania systemowe
 
 - Systemy operacyjne / Platformy:
-    - Linux (Alpine) / Docker / Kubernetes (wszystkie serwery)
-    - Android, iOS (aplikacja mobilna)
-    - Web (HTML5, CSS3, JS) - strona internetowa
-    - Android (aplikacja skanera - urządzenia przyznawane kurierom przez firmę kurierską)
+   - Linux (Alpine) / Docker / Kubernetes (wszystkie serwery)
+   - Android, iOS (aplikacja mobilna)
+   - Web (HTML5, CSS3, JS) - strona internetowa
+   - Android (aplikacja skanera - urządzenia przyznawane kurierom przez firmę kurierską)
 - Urządzenia (minimum):
-    - Serwery: Kubernetes (n.p. GKE, AWS EKS)
-    - Urządzenia klientów:
-        - Android API Level 24 (Android Nougat, 2016)
-        - iOS 12 (2018)
-        - Chrome 85+ (2020)
-        - Firefox 65+ (2019)
-        - Safari 16.0+ (2022)
-    - Skanery: Android API Level 29
+   - Serwery: Kubernetes (n.p. GKE, AWS EKS)
+   - Urządzenia klientów:
+      - Android API Level 24 (Android Nougat, 2016)
+      - iOS 12 (2018)
+      - Chrome 85+ (2020)
+      - Firefox 65+ (2019)
+      - Safari 16.0+ (2022)
+   - Skanery: Android API Level 29
 
 ### 9.3. Wymagania wydajnościowe
 
 - API:
-    - p95 < 500ms dla API biznesowego
-    - p95 < 50ms dla API do trackingu przesyłek
-    - p95 < 100ms dla pozostałych funkcji API dla klientów indywidualnych (backend dla strony internetowej i aplikacji mobilnej)
+   - p95 < 500ms dla API biznesowego
+   - p95 < 50ms dla API do trackingu przesyłek
+   - p95 < 100ms dla pozostałych funkcji API dla klientów indywidualnych (backend dla strony internetowej i aplikacji mobilnej)
 - Wszystkie serwisy sieciowe:
-    - 99.5% uptime minimum
-    - Autoskalowanie do dowolnej liczby równoczesnych użytkowników
+   - 99.5% uptime minimum
+   - Autoskalowanie do dowolnej liczby równoczesnych użytkowników
 
 ### 9.4. Wymagania środowiskowe
 
 - skanery:
-    - dowolna pogoda
-    - dowolna pora roku
-    - dowolny czas dnia
-    - bateria minimum 9 godzin, pełne ładowanie podczas nocy
-    - spadek z 1,5m bez uszkodzeń
+   - dowolna pogoda
+   - dowolna pora roku
+   - dowolny czas dnia
+   - bateria minimum 9 godzin, pełne ładowanie podczas nocy
+   - spadek z 1,5m bez uszkodzeń
 - inne: nie dotyczy
 
 ## 10. Wymagana dokumentacja
