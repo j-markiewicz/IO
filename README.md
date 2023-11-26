@@ -66,7 +66,7 @@
    
    5.1. Zaloguj się do systemu
    
-   5.2. Nadanie Paczki
+   5.2. Nadaj Paczkę
    
    5.3. Odbierz Paczkę
    
@@ -76,7 +76,7 @@
    
    5.6. Złóż zażalenie
    
-   5.7. Zmiana Statusu Paczki
+   5.7. Zmień Status Paczki
    
    5.8. Przydziel zadania Kurierom
    
@@ -333,7 +333,7 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 
 Klient/pracownik po wpisaniu loginu i hasła loguje się do systemu. System wyświetla interfejs klienta/pracownika.
 
-### 5.2. Nadanie Paczki
+### 5.2. Nadaj Paczkę
 
 System zapisuje dane wpisane w formularzu przez klienta oraz umożliwia wykonanie płatności za wysyłkę paczki. Następnie system przydziela wykupionej paczce nr ID i ustawia domyślny status do nadania. System generuje kod nadania paczki.
 Klient nadaje paczkę w paczkomacie wpisując kod wygenerowany przez system lub Klient przekazuje paczkę kurierowi po wcześniejszym uzgodnieniu terminu przez aplikację. System zmienia status paczki na "nadana".
@@ -355,7 +355,7 @@ Jeśli paczka klienta ma status "nadana" lub "w magazynie", klient ma możliwoś
 
 Klient wypełnia formularz reklamacji. Formularz zostaje wysłany do pracownika administracji.
 
-### 5.7. Zmiana Statusu Paczki
+### 5.7. Zmień Status Paczki
 
 Kurier skanuje kod paczki, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. System zmienia status paczki.
 
