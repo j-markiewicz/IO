@@ -1,5 +1,4 @@
-# OutPost
-# Wizja
+# OutPost - Wizja
 
 ## Spis treści
 
@@ -86,8 +85,11 @@
    5.10. Zmień sposób dostarczenia lub adres 
    
 6. Ograniczenia
+
 7. Normy jakościowe
+
 8. Priorytety realizacji
+
 9. Pozostałe wymagania
    
    9.1. Standardy
@@ -120,14 +122,14 @@ Niniejszy dokument wizji opisuje działanie podsystemu firmy kurierskiej. Jest o
    
 ### 1.3. Definicje, akronimy i skróty
 
-- Klient – zewnętrzny użytkownik serwisu
-- Pracownik – użytkownik systemu zatrudniony przez firmę kurierską
-- Klient Nadawca – Klient nadający paczkę przez usługę
-- Klient Odbiorca – Klient odbierający przesyłkę
-- Kurier – pracownik, dostawca paczek do domu klienta lub paczkomatu
+- Klient - zewnętrzny użytkownik serwisu
+- Pracownik - użytkownik systemu zatrudniony przez firmę kurierską
+- Klient Nadawca - Klient nadający paczkę przez usługę
+- Klient Odbiorca - Klient odbierający przesyłkę
+- Kurier - pracownik, dostawca paczek do domu klienta lub paczkomatu
 - Kurier paczkomatowy - Kurier, który dostarcza lub odbiera paczki z/do paczkomatu
 - Kurier domowy - Kurier, który dostarcza lub odbiera paczki z/do nie-paczkomatu
-- Administracja – pracownik obsugłujący kurierów lub logistykę
+- Administracja - pracownik obsugłujący kurierów lub logistykę
 - Skaner - urządzenie używane przez Kuriera do używania systemu
 
 ### 1.4. Referencje
@@ -146,7 +148,7 @@ Pozostała część dokumentu w pierwszej kolejności zarysuje tło, na którym 
 ### 2.1. Korzyści biznesowe
 
 - Stworzenie linii komunikacji między użytkowanikami systemu, co spowoduje przyspieszenie obsługi klienta oraz zoptymalizowanie tras kuriera przy nadaniu lub odbiorze paczki. W związku z powyższym przeciętny kurier bedzie w stanie średnio zwiększyć ilość rozwożonych/odbieranych paczek między 2 a 3 więcej dziennie.
-- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera, co skutkuje oszczędnościami na paliwie, amortyzacji pojazdów oraz skróceniem czasu dostawy – 3% szacowane obniżenie kosztów dostawy.
+- Odciążenie firm kurierskich i przewozowych na poziomie logistycznym. Lepsze i oszczędniejsze zaplanowanie trasy kuriera, co skutkuje oszczędnościami na paliwie, amortyzacji pojazdów oraz skróceniem czasu dostawy - 3% szacowane obniżenie kosztów dostawy.
 - Usprawnienie oraz skrócenie procesu nadania oraz możliwość zmiany daty i miejsca dostawy znacząco poprawi doświadzenie użytkownika podczas korzystania z aplikacji co w perspektywie już kilku miesięcy będzie pomagać w zdominowaniu rynku w demografii użytkowników aplikacji. Zwiększenie liczby klientów zależy od intesywności kampanii. marketingowych i promocyjnych firmy w danym okresie, ale podczas przeprowadzonych testów 90% użytkowników po trzecim nadaniu/odbiorze paczki ocenia swoje doświadczenie zauważalnie lepiej niż podczas przechodzenia tego samego procesu w innych serwisach.
 
 
@@ -205,7 +207,6 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Rola | Opłata za nadanie paczki, nadanie w aplikacji, adresowanie przesyłki, wypełnienie danych, sprawdzenie poprawności danych, dokonanie przelewu |
 | Kryteria sukcesu | Nadanie przesyłki bez większych problemów, duża dostępność paczkomatów, możliwość dojazdu kuriera, łatwe poruszanie się w aplikacji, szybkość całego procesu |
 | Zaangażowanie | Umiejętnośc nadania przesyłki, wydruk etykiety, opakowanie paczki, niewielkie zaangażowanie |
-| Uwagi | |
 
 #### 3.4.2. Odbiorca
 
@@ -217,7 +218,6 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Rola | Śledzenie przesyłki, otrzymywanie informacji na temat statusu przesyłki, odbiór z paczkomatu/od kuriera |
 | Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z kurierem, możliwość określenia dokładnego czasu przybycia przesyłki do punktu docelowego |
 | Zaangażowanie | Śledzenie przesyłki, kontakt z kurierem, zaangażowanie minimalne |
-| Uwagi | |
 
 #### 3.4.3. Kurier
 
@@ -229,7 +229,6 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Rola | Przewóz paczek między magazynem a paczkomatem lub adresem klienta. Kontakt z klientem w przypadku dowozu do adresu klienta w celu ustalenia dokładnego czasu dostawy |
 | Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość sprawnej zmiany statusu paczek |
 | Zaangażowanie | Przewóz przesyłek, kontakt z klientem, zaangażowanie wysokie |
-| Uwagi | |
 
 #### 3.4.4. Administracja
 
@@ -241,7 +240,6 @@ Aplikacja adresowana do użytkowników telefonów komórkowych, liczba użytkown
 | Rola | Przydział pojazdów i grafików kurierom, obsługa klientów |
 | Kryteria sukcesu | Brak problemów z obsługą interfejsu, dobry kontakt z klientem, możliwość skutecznego zarządzania kurierami |
 | Zaangażowanie | Zarządzanie kurierami, obsługa klienta, zaangażowanie wysokie |
-| Uwagi | |
 
 ### 3.5. Kluczowe wymagania
 
@@ -290,10 +288,10 @@ Projekt stawia bardziej na wcielenie w życie nowatorskich lub wciąż mało pop
 
 ### 4.4. Koszty
 
-- 60000zł - koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania 		zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też 		koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł. Nie będzie konieczności zakupu dodatkowych 	serwerów i baz danych przez firmę Outpost, ponieważ omawiany podsystem będzie korzystać z już istniejącej w tej firmie infrastruktury informatycznej.
+- 60000zł - koszt wytworzenia podsystemu Outpost przez firmę Datagility. Podsystem Outpost nie jest sam w sobie systemem ERP (całym systemem służącym do planowania zasobów przedsiębiorstwa). Jest jedynie jednym z modułów tego systemu i jedynie w razie potrzeby wymiany informacji zachowuje z nim łączność. Dlatego też koszt takiego systemu jest względnie niski na tle kompletnych systemów ERP kosztujących w granicach 100000-200000zł. Nie będzie konieczności zakupu dodatkowych serwerów i baz danych przez firmę Outpost, ponieważ omawiany podsystem będzie korzystać z już istniejącej w tej firmie infrastruktury informatycznej.
 - 10000zł - instalacja systemu przez firmę Datagility i jego synchronizacja z obecnym systemem ERP. Personalizacja i optymalizacja podsystemu.
-- 2000zł/msc - pakiet serwisowy wykupiony u firmy Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie 			pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych.
-- 2000zł/msc - dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny 			menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity.
+- 2000zł/msc - pakiet serwisowy wykupiony u firmy Datagility. Obejmuje całodobową opiekę nad sprawnością działania podsystemu i priorytetowe usuwanie pojawiających się błędów a także gotowość do wykonywania dalszych zleceń z zakresu rozbudowy podsystemu o nowe funkcjonalności czy modyfikację obecnych.
+- 2000zł/msc - dodatkowy pakiet zwiększający bezpieczeństwo danych przechodzących przez system. Zawiera wzmocnioną ochronę sieci a także bardziej funkcjonalny menadżer haseł. W kosztach został uwzględniony wzrost wynagrodzenia dla obecnego pracownika działu cybersecurity.
 - 5000zł - przeszkolenie pracowników firmy Outpost a także pracowników firmy Datagility, którzy będą zajmować się konserwacją systemu Outpost, przez zarząd i ekspertów firmy Datagility z użytkowania nowego podsystemu.
 
 ### 4.5 Licencje i instalacja
@@ -301,7 +299,7 @@ Projekt stawia bardziej na wcielenie w życie nowatorskich lub wciąż mało pop
 Produkt został zakupiony przez firmę Outpost, która zyskała wszelkie prawa do rozporządzania nim, w tym do wydawania licencji na jego używanie przez podmioty trzecie, jak i do całkowitej odsprzedaży produktu.
 
 Instalacja i pielęgnacja zostały zlecone firmie, która utworzyła podsystem, firmie Datagility.
-	
+
 Firma Outpost zakupiła licencje na bardziej użyteczny i rozbudowany menadżer haseł a także na oprogramowanie wzmacniające ochronę sieci.
 
 ## 5. Funkcjonalność produktu
@@ -310,8 +308,8 @@ System Outpost daje możliwość zakupu usługi oferowanej przez firmę (nadanie
 Ułatwia komunikacje między klientem a pracownikami firmy.
 
 *System Outpost posiada takie funkcjonalności dla klientów firmy Outpost:*
-- Nadanie Paczki – wykupienie usługi na przesłanie paczki 
-- Odbiór Paczki – odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
+- Nadanie Paczki - wykupienie usługi na przesłanie paczki 
+- Odbiór Paczki - odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
 - Śledzenie Paczki - możliwość zobaczenia statusu paczki
 - Zmiana daty odbioru paczki
 - Złożenie zażalenia
@@ -321,7 +319,7 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 *Funkcjonalności zapewniane przez system Outpost dla pracowników firmy Outpost:*
 
 *Dla kurierów:*
-- Obszar pracy – lista adresów + adres magazynu
+- Obszar pracy - lista adresów + adres magazynu
 - Tryb pracy
 - Przydzielone auto
 - Możliwość zmiany statusu paczki
@@ -329,7 +327,7 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 
 *Dla administracji:*
 - Kontakt z klientami - Dział obsługi klienta 
-- Przydzielanie zadań kurierom – łatwiejsza i szybsza komunikacja
+- Przydzielanie zadań kurierom - łatwiejsza i szybsza komunikacja
 
 ### 5.1. Zaloguj się do systemu
 
@@ -376,40 +374,42 @@ Klient wybiera sposob dostarczenia (paczkomat/kurier) i wybiera paczkomat z list
 ## 6. Ograniczenia 
 
 1. Logowanie
-	- Hasło musi być ciągiem znaków o długości przynajmniej 8
-	- Login musi być unikalnym ciągiem znaków
+    - Hasło musi być ciągiem znaków o długości przynajmniej 8
+    - Login musi być unikalnym ciągiem znaków
 2. Formularz (Dla osób prywatnych)
-	- Imię i Nazwisko nadawcy (ciąg znaków)
-	- Dane kontaktowe nadawcy (mail lub telefon) (ciag znaków lub 9 cyfr)
-	- Adres odbiorcy (miasto, ulica, nr domu, nr mieszkania (opcjonalne), kod pocztowy)
-	- dane kontaktowe odbiorcy (mail lub telefon)
+    - Imię i Nazwisko nadawcy (ciąg znaków)
+    - Dane kontaktowe nadawcy (mail lub telefon) (ciag znaków lub 9 cyfr)
+    - Adres odbiorcy (miasto, ulica, nr domu, nr mieszkania (opcjonalne), kod pocztowy)
+    - Dane kontaktowe odbiorcy (mail lub telefon)
 3. API dla firm
-	- Sposób nadania - lista składająca się z dwóch opcji (kurier, paczkomat)
-	- Sposób odebrania - lista składająca się z dwóch opcji (kurier, paczkomat)
-	- Wystawienie faktury (opcjonalne) - pole do zaznaczenia
+    - Sposób nadania - lista składająca się z dwóch opcji (kurier, paczkomat)
+    - Sposób odebrania - lista składająca się z dwóch opcji (kurier, paczkomat)
+    - Wystawienie faktury (opcjonalne) - pole do zaznaczenia
 4. Płatność
-	- Płatność organizowana przez system płatności elektronicznych
+    - Płatność organizowana przez system płatności elektronicznych
 
 ## 7. Normy jakościowe
 
-Odporność na błędy: Żaden użytkownik nie powinien móc zrobić niczego, co ma wpływ na funkcjonalność serwisu dla innych użytkowników.
+*Odporność na błędy:*
+
+Żadne akcje użytkownika nie powinny móc wpłynąć na funkcjonalność serwisu dla innych użytkowników.
 
 ## 8. Priorytety realizacji
 
 1. Polepszenie istniejących procesów
-   - Interfejs z istniejącym systemem logistycznym
-   - Obsługa skanerów paczek dla kurierów
-   - System dla klienta usług kurierskich (bez paczkomatów):
-      - Tracking paczek
-      - Zakup usług kurierskich
-      - Uzgadnianie dostarczenia paczki
-   - Pozostała funkcjonalność (drobne części funkcjonalności)
+    - Interfejs z istniejącym systemem logistycznym
+    - Obsługa skanerów paczek dla kurierów
+    - System dla klienta usług kurierskich (bez paczkomatów):
+        - Tracking paczek
+        - Zakup usług kurierskich
+        - Uzgadnianie dostarczenia paczki
+    - Pozostała funkcjonalność (drobne części funkcjonalności)
 2. Nowy system paczkomatowy
-   - Obsługa paczkomatów (z punktu widzenia kurierów i logistyki)
-   - Odbiory z paczkomatów (dla klientów)
-   - Nadawanie przesyłek z paczkomatów
-   - Zwroty z paczkomatów
-   - Pozostała funkcjonalność (drobne części funkcjonalności)
+    - Obsługa paczkomatów (z punktu widzenia kurierów i logistyki)
+    - Odbiory z paczkomatów (dla klientów)
+    - Nadawanie przesyłek z paczkomatów
+    - Zwroty z paczkomatów
+    - Pozostała funkcjonalność (drobne części funkcjonalności)
 
 ## 9. Pozostałe wymagania
 
