@@ -254,13 +254,13 @@ System Outpost daje możliwość zakupu usługi oferowanej przez firmę (nadanie
 Ułatwia komunikacje między klientem a pracownikami firmy.
 
 *System Outpost posiada takie funkcjonalności dla klientów firmy Outpost:*
-- Nadanie Paczki - wykupienie usługi na przesłanie paczki 
-- Odbiór Paczki - odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
-- Śledzenie Paczki - możliwość zobaczenia statusu paczki
-- Zmiana daty odbioru paczki
-- Złożenie zażalenia
+- Nadaj Paczkę - wykupienie usługi na przesłanie paczki 
+- Odbierz Paczkę - odebranie paczki bezpośrednio od kuriera lub z paczkomatu 
+- Śledź Paczkę - możliwość zobaczenia statusu paczki
+- Zmień datę odbioru paczki
+- Złóż zażalenie
 - Kontakt z kurierem (w wypadku odbioru i doreczenia z/do innego miejsca niż paczkomat)
-- Zmiana sposobu doreczenia paczki lub zmiana adresu
+- Zmień sposób doręczenia paczki lub zmień adres
 
 *Funkcjonalności zapewniane przez system Outpost dla pracowników firmy Outpost:*
 
@@ -268,12 +268,12 @@ Ułatwia komunikacje między klientem a pracownikami firmy.
 - Obszar pracy - lista adresów + adres magazynu
 - Tryb pracy
 - Przydzielone auto
-- Możliwość zmiany statusu paczki
+- Zmień status paczki
 - Kontakt z klientem (jesli tryb pracy inny niż z/do paczkomatu)
 
 *Dla administracji:*
 - Kontakt z klientami - Dział obsługi klienta 
-- Przydzielanie zadań kurierom - łatwiejsza i szybsza komunikacja
+- Przydziel zadania kurierom - łatwiejsza i szybsza komunikacja
 
 ### 5.1. Zaloguj się do systemu
 
@@ -303,7 +303,7 @@ Klient wypełnia formularz reklamacji. Formularz zostaje wysłany do pracownika 
 
 ### 5.7. Zmień Status Paczki
 
-Kurier skanuje kod paczki, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. System zmienia status paczki.
+Kurier skanuje kod paczki,za pomocą skanera, informacja ta jest przesyłana do systemu. System wyświetla domyślna zmianę statusu paczki. Kurier zatwierdza status lub wybiera inny status paczki z listy. System zmienia status paczki.
 
 ### 5.8. Przydziel zadania Kurierom
 
